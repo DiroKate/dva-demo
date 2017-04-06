@@ -39,3 +39,9 @@ and run
 ```
 $ npm start
 ```
+
+## Step 4: generate Route:users
+run
+```
+dva g route users
+```
