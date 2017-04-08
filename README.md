@@ -52,3 +52,14 @@ run
 ```
 dva g model users
 ```
+
+## Step 6: generate UsersComponent
+run
+```
+dva g component Users/Users
+```
+
+1. implete the components by using `antd`
+1. update models for component `pagination`
+1. update routes for component
+1. add constants for `PAGE_SIZE`

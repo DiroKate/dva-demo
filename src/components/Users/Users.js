@@ -44,7 +44,7 @@ function Users({ list: dataSource, total, page: current }) {
       <div>
         <Table
           columns={columns}
-          datasource={dataSource}
+          dataSource={dataSource}
           rowKey={record => record.id}
           pagination={false}
         />
