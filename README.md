@@ -1,5 +1,6 @@
 # dva-demo
 - install `node`
+
 guide from : https://github.com/sorrycc/blog/issues/18
 
 ## Step 1: install `dva-cli`
@@ -44,4 +45,10 @@ $ npm start
 run
 ```
 dva g route users
+```
+
+## Step 5: generate users model and services
+run
+```
+dva g model users
 ```
