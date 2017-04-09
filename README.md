@@ -72,5 +72,8 @@ dva g component Users/Users
 
 ## Step 8: add loading
 - using dva-loading plugin for data loading.
-- run `npm install dva-loading -S` to install
+- run `npm install dva-loading -S` to install.
 - update the `index` file and the `users` component.
+
+# Step 9: update pagination
+- update pagination, listen the changes of router change.
