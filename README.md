@@ -63,3 +63,9 @@ dva g component Users/Users
 1. update models for component `pagination`
 1. update routes for component
 1. add constants for `PAGE_SIZE`
+
+## Step 7: add MainLayout
+```
+-import { MainLayout } from '../components/MainLayout/MainLayout';
++import MainLayout from '../components/MainLayout/MainLayout';
+```
