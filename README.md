@@ -82,3 +82,9 @@ dva g component Users/Users
 - add ACTION remove
 - add remove Service
 - add remove EFFECT
+
+## Step 11: Edit a user
+- add modal component
+- add patch service
+- add store PATCH EFFECT
+- use Modal component
