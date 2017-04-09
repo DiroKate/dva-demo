@@ -26,10 +26,10 @@ class UserEditModal extends Component {
   }
 
   okHandler = () => {
-    const { onOK } = this.props;
+    const { onOk } = this.props;
     this.props.form.validateFields((err, values) => {
       if (!err) {
-        onOK(values);
+        onOk(values);
         this.hideModalHandler();
       }
     });
@@ -51,10 +51,10 @@ class UserEditModal extends Component {
         <Modal
           title="Edit User"
           visible={this.state.visible}
-          onOK={this.okHandler}
+          onOk={this.okHandler}
           onCancel={this.hideModalHandler}
         >
-          <Form horizontal onSubmit={this.okHandler}>
+          <Form onSubmit={this.okHandler}>
             <Form.Item
               {...formItemLayout}
               label="Name"
