@@ -75,5 +75,10 @@ dva g component Users/Users
 - run `npm install dva-loading -S` to install.
 - update the `index` file and the `users` component.
 
-# Step 9: update pagination
+## Step 9: update pagination
 - update pagination, listen the changes of router change.
+
+## Step 10: delete a user
+- add ACTION remove
+- add remove Service
+- add remove EFFECT
