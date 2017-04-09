@@ -69,3 +69,8 @@ dva g component Users/Users
 -import { MainLayout } from '../components/MainLayout/MainLayout';
 +import MainLayout from '../components/MainLayout/MainLayout';
 ```
+
+## Step 8: add loading
+- using dva-loading plugin for data loading.
+- run `npm install dva-loading -S` to install
+- update the `index` file and the `users` component.
